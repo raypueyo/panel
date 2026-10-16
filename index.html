@@ -918,6 +918,21 @@ document.addEventListener("visibilitychange", function(){ if(document.visibility
 document.addEventListener("click", keepAwake, true);
 keepAwake();
 
+/* ---------- Actualización automática (solo en la versión web) ---------- */
+var PANEL_VERSION = "202610162118";
+function checkUpdate(){
+  if(location.protocol.indexOf("http")!==0) return;
+  var x = new XMLHttpRequest();
+  x.open("GET", location.pathname + "?v=" + Date.now(), true);
+  x.setRequestHeader("Cache-Control","no-cache");
+  x.onload = function(){
+    var m = x.responseText.match(/PANEL_VERSION = "(\d+)"/);
+    if(m && m[1] !== PANEL_VERSION && document.activeElement!==$("notes")) location.reload();
+  };
+  x.send();
+}
+setTimeout(checkUpdate, 20*1000); setInterval(checkUpdate, 5*60*1000);
+
 /* ---------- Pantalla completa al tocar ---------- */
 function goFull(){
   var e = document.documentElement, f = e.requestFullscreen || e.webkitRequestFullscreen;
