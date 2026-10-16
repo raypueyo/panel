@@ -240,6 +240,26 @@
   .q .c { width:6.5vw; text-align:right; font-weight:700; font-size:2vh; white-space:nowrap; }
   .pos2 { color:#3ddc84; } .neg2 { color:#ff6b6b; }
   .mnote { font-size:1.6vh; color:var(--mut); }
+  /* ===== Vertical (iPad de pie): todo cabe y se apila ===== */
+  @media (orientation: portrait) {
+    :root { --barh: 6.5vh; }
+    #bar { padding:0 2.5vw; }
+    #time { font-size:4.2vh; } #date { font-size:1.6vh; }
+    #scname { display:none; } .dots button { width:1.6vh; height:1.6vh; }
+    .br { font-size:1.6vh; gap:2vw; } #nbtn { font-size:1.7vh; padding:.7vh 2.4vw; }
+    .content { zoom:.64; height:156.25%; padding:2vh 3vw 3vh; }
+    #sc-wx .content { flex-direction:column; justify-content:center; }
+    #sc-wx .wl, #sc-wx .wr { flex:none; } #sc-wx .wr { margin-top:4vh; }
+    .nx .d { width:34vw; } .rs .dd { width:14vw; } .q .c { width:15vw; }
+    .mc .row .s { min-width:12vw; }
+    .days .dn { width:22vw; } #sc-wx .wr { margin-top:2vh; }
+    #sc-fcb .fl, #sc-fcb .fr, #sc-uesa .fl, #sc-uesa .fr { flex:none; }
+    #temp { font-size:24vh; }
+    #sc-fcb .content, #sc-uesa .content { flex-direction:column; }
+    .mgrid { grid-template-columns:1fr 1fr; }
+    #mlist { grid-template-columns:1fr; } #mlist.compact { grid-template-columns:1fr 1fr; }
+    .card { width:92vw; }
+  }
 </style>
 </head>
 <body>
@@ -465,7 +485,7 @@ go(0);
     if(Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)) go(CUR + (dx<0 ? 1 : -1), true);
   }, {passive:true});
 })();
-document.addEventListener("click", function(){ if(document.fullscreenElement || document.webkitFullscreenElement) touched(); }, true);
+document.addEventListener("click", function(){ if(typeof isFull!=="function" || isFull()) touched(); }, true);
 
 /* ---------- Iconos y cielo animado ---------- */
 function kindOf(code, day){
@@ -904,15 +924,20 @@ function goFull(){
   if(f){ try { var r = f.call(e); if(r && r.catch) r.catch(function(){}); } catch(x){} }
   try { screen.orientation.lock("landscape").catch(function(){}); } catch(x){}
 }
-function fsState(){ setCls(document.body, "full", !!(document.fullscreenElement || document.webkitFullscreenElement)); }
 /* Abierto como app desde la pantalla de inicio (iPad/Android): ya está a pantalla completa */
-if(window.navigator.standalone || (window.matchMedia && (matchMedia("(display-mode: fullscreen)").matches || matchMedia("(display-mode: standalone)").matches))){ setCls(document.body, "full", true); }
+var STANDALONE = !!(window.navigator.standalone || (window.matchMedia && (matchMedia("(display-mode: fullscreen)").matches || matchMedia("(display-mode: standalone)").matches)));
+/* iPhone/iPad en Safari no tienen pantalla completa para páginas: se trata como si ya lo estuviera */
+var NOFS = !(document.documentElement.requestFullscreen || document.documentElement.webkitRequestFullscreen);
+function isFull(){ return STANDALONE || NOFS || !!(document.fullscreenElement || document.webkitFullscreenElement); }
+function fsState(){ setCls(document.body, "full", isFull()); }
+fsState();
 document.addEventListener("fullscreenchange", fsState);
 document.addEventListener("webkitfullscreenchange", fsState);
 /* El primer toque solo activa la pantalla completa (no abre fichas ni cambia nada) */
 document.addEventListener("click", function(e){
-  if(!document.fullscreenElement && !document.webkitFullscreenElement && document.activeElement!==$("notes")){
+  if(!isFull() && document.activeElement!==$("notes")){
     goFull(); e.stopPropagation(); e.preventDefault();
+    setTimeout(function(){ if(!isFull()) NOFS = true; fsState(); }, 800);   /* si el navegador no deja, no se vuelve a bloquear ningún toque */
   }
 }, true);
 </script>
