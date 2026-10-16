@@ -37,9 +37,19 @@
 
   /* ---------- Escenas que rotan ---------- */
   #stage { position:relative; height:calc(100% - var(--barh)); overflow:hidden; touch-action:pan-y; }
-  #track { display:flex; width:500vw; height:100%; transition:transform .8s ease; }
-  .scene { position:relative; width:100vw; height:100%; overflow:hidden; }
+  #track { position:relative; width:100%; height:100%; perspective:1600px; perspective-origin:50% 50%; overflow:hidden; background:#000; }
+  .scene { position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; backface-visibility:hidden; -webkit-backface-visibility:hidden; }
+  .scene.off { visibility:hidden; }
   .scene.off * { animation-play-state:paused !important; }
+  /* Cubo 3D al cambiar de escena */
+  .cubeOutL { transform-origin:100% 50%; animation:cubeOutL .9s both ease-in; z-index:1; }
+  .cubeInL  { transform-origin:0% 50%;   animation:cubeInL  .9s both ease-in; z-index:2; }
+  .cubeOutR { transform-origin:0% 50%;   animation:cubeOutR .9s both ease-in; z-index:1; }
+  .cubeInR  { transform-origin:100% 50%; animation:cubeInR  .9s both ease-in; z-index:2; }
+  @keyframes cubeOutL { 50% { animation-timing-function:ease-out; transform:translateX(-50%) translateZ(-260px) rotateY(-45deg); } 100% { opacity:.35; transform:translateX(-100%) rotateY(-90deg); } }
+  @keyframes cubeInL  { 0% { opacity:.35; transform:translateX(100%) rotateY(90deg); } 50% { animation-timing-function:ease-out; transform:translateX(50%) translateZ(-260px) rotateY(45deg); } 100% { transform:none; } }
+  @keyframes cubeOutR { 50% { animation-timing-function:ease-out; transform:translateX(50%) translateZ(-260px) rotateY(45deg); } 100% { opacity:.35; transform:translateX(100%) rotateY(90deg); } }
+  @keyframes cubeInR  { 0% { opacity:.35; transform:translateX(-100%) rotateY(-90deg); } 50% { animation-timing-function:ease-out; transform:translateX(-50%) translateZ(-260px) rotateY(-45deg); } 100% { transform:none; } }
   .bg { position:absolute; left:0; top:0; right:0; bottom:0; overflow:hidden; z-index:0; }
   .content { position:relative; z-index:1; height:100%; padding:2.4vh 2.4vw 3vh; }
   .glass { background:rgba(0,0,0,.28); border-radius:16px; }
@@ -408,10 +418,29 @@ setInterval(tick,1000); tick();
 /* ---------- Rotación de escenas ---------- */
 var SC = [["sc-wx","Tiempo"],["sc-par","Partidos"],["sc-fcb","Barça"],["sc-uesa","UESA"],["sc-mkt","Bolsa"]], CUR = 0, pausedUntil = 0, PIN = false;
 (function(){ var h=""; for(var i=0;i<SC.length;i++) h += '<button onclick="go('+i+',true)"></button>'; $("dots").innerHTML = h; })();
+var ANIM = null;
+function clearCube(){
+  if(!ANIM) return;
+  clearTimeout(ANIM.t);
+  ["cubeOutL","cubeInL","cubeOutR","cubeInR"].forEach(function(c){ setCls(ANIM.a, c, false); setCls(ANIM.b, c, false); });
+  setCls(ANIM.a, "off", true);
+  ANIM = null;
+}
 function go(i, user){
+  var prev = CUR, dir = i > CUR ? 1 : -1;
   CUR = (i + SC.length) % SC.length;
-  $("track").style.transform = "translateX(-"+(CUR*100)+"vw)";
-  for(var k=0;k<SC.length;k++){ setCls($(SC[k][0]), "off", k!==CUR); $("dots").children[k].className = k===CUR ? "on" : ""; }
+  clearCube();
+  for(var k=0;k<SC.length;k++){ $("dots").children[k].className = k===CUR ? "on" : ""; }
+  var a = $(SC[prev][0]), b = $(SC[CUR][0]);
+  if(prev !== CUR && go._ready){
+    setCls(a, "off", false); setCls(b, "off", false);
+    setCls(a, dir>0 ? "cubeOutL" : "cubeOutR", true);
+    setCls(b, dir>0 ? "cubeInL" : "cubeInR", true);
+    ANIM = { a:a, b:b, t:setTimeout(clearCube, 950) };
+  } else {
+    for(var k2=0;k2<SC.length;k2++) setCls($(SC[k2][0]), "off", k2!==CUR);
+  }
+  go._ready = true;
   $("scname").textContent = SC[CUR][1];
   if(user) touched();
   setCls(document.body, "rest", false);
