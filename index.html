@@ -42,14 +42,14 @@
   .scene.off { visibility:hidden; }
   .scene.off * { animation-play-state:paused !important; }
   /* Cubo 3D al cambiar de escena */
-  .cubeOutL { transform-origin:100% 50%; animation:cubeOutL .9s both ease-in; z-index:1; }
-  .cubeInL  { transform-origin:0% 50%;   animation:cubeInL  .9s both ease-in; z-index:2; }
-  .cubeOutR { transform-origin:0% 50%;   animation:cubeOutR .9s both ease-in; z-index:1; }
-  .cubeInR  { transform-origin:100% 50%; animation:cubeInR  .9s both ease-in; z-index:2; }
-  @keyframes cubeOutL { 50% { animation-timing-function:ease-out; transform:translateX(-50%) translateZ(-260px) rotateY(-45deg); } 100% { opacity:.35; transform:translateX(-100%) rotateY(-90deg); } }
-  @keyframes cubeInL  { 0% { opacity:.35; transform:translateX(100%) rotateY(90deg); } 50% { animation-timing-function:ease-out; transform:translateX(50%) translateZ(-260px) rotateY(45deg); } 100% { transform:none; } }
-  @keyframes cubeOutR { 50% { animation-timing-function:ease-out; transform:translateX(50%) translateZ(-260px) rotateY(45deg); } 100% { opacity:.35; transform:translateX(100%) rotateY(90deg); } }
-  @keyframes cubeInR  { 0% { opacity:.35; transform:translateX(-100%) rotateY(-90deg); } 50% { animation-timing-function:ease-out; transform:translateX(-50%) translateZ(-260px) rotateY(-45deg); } 100% { transform:none; } }
+  .cubeOutL { transform-origin:50% 100%;   animation:cubeOutU .9s both ease-in; z-index:1; }
+  .cubeInL  { transform-origin:50% 0%; animation:cubeInU  .9s both ease-in; z-index:2; }
+  .cubeOutR { transform-origin:50% 0%; animation:cubeOutD .9s both ease-in; z-index:1; }
+  .cubeInR  { transform-origin:50% 100%;   animation:cubeInD  .9s both ease-in; z-index:2; }
+  @keyframes cubeOutU { 50% { animation-timing-function:ease-out; transform:translateY(-50%) translateZ(-260px) rotateX(45deg); } 100% { opacity:.35; transform:translateY(-100%) rotateX(90deg); } }
+  @keyframes cubeInU  { 0% { opacity:.35; transform:translateY(100%) rotateX(-90deg); } 50% { animation-timing-function:ease-out; transform:translateY(50%) translateZ(-260px) rotateX(-45deg); } 100% { transform:none; } }
+  @keyframes cubeOutD { 50% { animation-timing-function:ease-out; transform:translateY(50%) translateZ(-260px) rotateX(-45deg); } 100% { opacity:.35; transform:translateY(100%) rotateX(-90deg); } }
+  @keyframes cubeInD  { 0% { opacity:.35; transform:translateY(-100%) rotateX(90deg); } 50% { animation-timing-function:ease-out; transform:translateY(-50%) translateZ(-260px) rotateX(45deg); } 100% { transform:none; } }
   .bg { position:absolute; left:0; top:0; right:0; bottom:0; overflow:hidden; z-index:0; }
   .content { position:relative; z-index:1; height:100%; padding:2.4vh 2.4vw 3vh; }
   .glass { background:rgba(0,0,0,.28); border-radius:16px; }
