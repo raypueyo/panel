@@ -454,8 +454,8 @@ function ticker(){
   get("https://api.kraken.com/0/public/Ticker?pair="+p[0], function(j){
     var k = j.result && Object.keys(j.result)[0];
     if(!k){ $("btc").textContent = p[1]+" sin datos"; return; }
-    var r = j.result[k], last = parseFloat(r.c[0]), up = last >= parseFloat(r.o);
-    $("btc").innerHTML = p[1]+" "+last.toLocaleString("es-ES",{maximumFractionDigits:0})+' $ <span class="'+(up?"up":"down")+'">'+(up?"▲":"▼")+'</span>';
+    var r = j.result[k], last = parseFloat(r.c[0]), open = parseFloat(r.o), up = last >= open, ch = (last/open-1)*100;
+    $("btc").innerHTML = p[1]+" "+last.toLocaleString("es-ES",{maximumFractionDigits:0})+' $ <span class="'+(up?"up":"down")+'">'+(up?"▲ +":"▼ ")+ch.toFixed(2).replace(".",",")+'%</span>';
   }, function(){ $("btc").textContent = p[1]+" sin conexión"; });
 }
 ticker(); setInterval(ticker, 30*1000);
