@@ -1,11 +1,35 @@
 {
-"actualizado": "2026-11-23T15:54Z",
+"actualizado": "2026-11-24T15:47Z",
 "mes": "2026-11",
 "plataformas": [
 {
 "id": "nfx",
 "nombre": "Netflix",
 "titulos": [
+{
+"t": "Rob Lowe: El marginado",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/357259634/s166/rob-lowe-the-outsider.jpg",
+"url": "https://www.justwatch.com/es/pelicula/rob-lowe-the-outsider"
+},
+{
+"t": "Chiara Ferragni: De frente",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/357592589/s166/chiara-ferragni-de-frente.jpg",
+"url": "https://www.justwatch.com/es/pelicula/chiara-ferragni-de-frente"
+},
+{
+"t": "Un último pedido",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/355260314/s166/one-last-order.jpg",
+"url": "https://www.justwatch.com/es/pelicula/one-last-order"
+},
 {
 "t": "Navidad sangrienta",
 "y": 2019,
@@ -51,7 +75,7 @@
 "y": 2026,
 "tipo": "Película",
 "f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/354705133/s166/steps.jpg",
+"img": "https://images.justwatch.com/poster/357720524/s166/steps.jpg",
 "url": "https://www.justwatch.com/es/pelicula/steps"
 },
 {
@@ -175,20 +199,20 @@
 "url": "https://www.justwatch.com/es/pelicula/el-grinch-2018"
 },
 {
-"t": "Until Dawn",
-"y": 2025,
-"tipo": "Película",
-"f": "2026-11-14",
-"img": "https://images.justwatch.com/poster/331477087/s166/until-dawn.jpg",
-"url": "https://www.justwatch.com/es/pelicula/until-dawn"
-},
-{
 "t": "El asesino con ojos de corazón",
 "y": 2025,
 "tipo": "Película",
 "f": "2026-11-14",
 "img": "https://images.justwatch.com/poster/341170108/s166/heart-eyes.jpg",
 "url": "https://www.justwatch.com/es/pelicula/heart-eyes"
+},
+{
+"t": "Until Dawn",
+"y": 2025,
+"tipo": "Película",
+"f": "2026-11-14",
+"img": "https://images.justwatch.com/poster/331477087/s166/until-dawn.jpg",
+"url": "https://www.justwatch.com/es/pelicula/until-dawn"
 },
 {
 "t": "Ranabaali",
@@ -215,14 +239,6 @@
 "url": "https://www.justwatch.com/es/pelicula/russell-brand-un-secreto-a-voces"
 },
 {
-"t": "Heartland",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-13",
-"img": "https://images.justwatch.com/poster/355278075/s166/heartland-2026.jpg",
-"url": "https://www.justwatch.com/es/pelicula/heartland-2026"
-},
-{
 "t": "Peleas a domicilio",
 "y": 2026,
 "tipo": "Película",
@@ -239,20 +255,20 @@
 "url": "https://www.justwatch.com/es/pelicula/ellas-dan-el-golpe"
 },
 {
-"t": "Hazme reír",
-"y": 2009,
-"tipo": "Película",
-"f": "2026-11-13",
-"img": "https://images.justwatch.com/poster/166485599/s166/hazme-reir.jpg",
-"url": "https://www.justwatch.com/es/pelicula/hazme-reir"
-},
-{
 "t": "Kijsada Paradise",
 "y": 2026,
 "tipo": "Película",
 "f": "2026-11-13",
 "img": "https://images.justwatch.com/poster/356938415/s166/kijsada-paradise.jpg",
 "url": "https://www.justwatch.com/es/pelicula/kijsada-paradise"
+},
+{
+"t": "Hazme reír",
+"y": 2009,
+"tipo": "Película",
+"f": "2026-11-13",
+"img": "https://images.justwatch.com/poster/166485599/s166/hazme-reir.jpg",
+"url": "https://www.justwatch.com/es/pelicula/hazme-reir"
 },
 {
 "t": "Un vecino con pocas luces",
@@ -269,6 +285,14 @@
 "f": "2026-11-13",
 "img": "https://images.justwatch.com/poster/146354197/s166/return-to-christmas-creek.jpg",
 "url": "https://www.justwatch.com/es/pelicula/return-to-christmas-creek"
+},
+{
+"t": "Heartland",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-13",
+"img": "https://images.justwatch.com/poster/355278075/s166/heartland-2026.jpg",
+"url": "https://www.justwatch.com/es/pelicula/heartland-2026"
 },
 {
 "t": "El intercambio navideño",
@@ -295,36 +319,12 @@
 "url": "https://www.justwatch.com/es/pelicula/paddington-2"
 },
 {
-"t": "Gremlins",
-"y": 1984,
-"tipo": "Película",
-"f": "2026-11-12",
-"img": "https://images.justwatch.com/poster/329994511/s166/gremlins.jpg",
-"url": "https://www.justwatch.com/es/pelicula/gremlins"
-},
-{
 "t": "Viva el Rock 2",
 "y": 2016,
 "tipo": "Película",
 "f": "2026-11-12",
 "img": "https://images.justwatch.com/poster/290219778/s166/rock-on-2.jpg",
 "url": "https://www.justwatch.com/es/pelicula/rock-on-2"
-},
-{
-"t": "Fred Claus, el hermano gamberro de Santa Claus",
-"y": 2007,
-"tipo": "Película",
-"f": "2026-11-12",
-"img": "https://images.justwatch.com/poster/84172328/s166/fred-claus-el-hermano-gamberro-de-santa-claus.jpg",
-"url": "https://www.justwatch.com/es/pelicula/fred-claus-el-hermano-gamberro-de-santa-claus"
-},
-{
-"t": "Lara Croft. Tomb Raider",
-"y": 2001,
-"tipo": "Película",
-"f": "2026-11-12",
-"img": "https://images.justwatch.com/poster/308536512/s166/lara-croft-tomb-raider.jpg",
-"url": "https://www.justwatch.com/es/pelicula/lara-croft-tomb-raider"
 }
 ]
 },
@@ -333,28 +333,236 @@
 "nombre": "Prime Video",
 "titulos": [
 {
+"t": "La vida era eso",
+"y": 2021,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/256755888/s166/la-vida-era-eso.jpg",
+"url": "https://www.justwatch.com/es/pelicula/la-vida-era-eso"
+},
+{
+"t": "The Snare",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/355001430/s166/the-snare.jpg",
+"url": "https://www.justwatch.com/es/pelicula/the-snare"
+},
+{
+"t": "Peligrosamente unidos",
+"y": 1991,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/10980657/s166/peligrosamente-unidos.jpg",
+"url": "https://www.justwatch.com/es/pelicula/peligrosamente-unidos"
+},
+{
+"t": "El barco de la muerte",
+"y": 1980,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/162210826/s166/death-ship.jpg",
+"url": "https://www.justwatch.com/es/pelicula/death-ship"
+},
+{
+"t": "En la mira del francotirador (The Wall)",
+"y": 2017,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/346955400/s166/en-la-mira-del-francotirador.jpg",
+"url": "https://www.justwatch.com/es/pelicula/en-la-mira-del-francotirador"
+},
+{
+"t": "Comunión",
+"y": 1989,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/343656885/s166/communion-1989.jpg",
+"url": "https://www.justwatch.com/es/pelicula/communion-1989"
+},
+{
+"t": "Horizon: An American Saga - Capítulo 1",
+"y": 2024,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/319955648/s166/horizon-an-american-saga-chapter-1.jpg",
+"url": "https://www.justwatch.com/es/pelicula/horizon-an-american-saga-chapter-1"
+},
+{
+"t": "El último vaquero",
+"y": 2003,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/240862682/s166/el-ultimo-vaquero.jpg",
+"url": "https://www.justwatch.com/es/pelicula/el-ultimo-vaquero"
+},
+{
+"t": "Interludio",
+"y": 2016,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/320951926/s166/interludio.jpg",
+"url": "https://www.justwatch.com/es/pelicula/interludio"
+},
+{
+"t": "Los chicos de al lado",
+"y": 1986,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/302893076/s166/los-chicos-de-al-lado.jpg",
+"url": "https://www.justwatch.com/es/pelicula/los-chicos-de-al-lado"
+},
+{
+"t": "Crack House",
+"y": 1989,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/300543821/s166/crack-house.jpg",
+"url": "https://www.justwatch.com/es/pelicula/crack-house"
+},
+{
+"t": "Boca Juniors 3D, la película",
+"y": 2015,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/306427008/s166/boca-juniors-3d-la-pelicula.jpg",
+"url": "https://www.justwatch.com/es/pelicula/boca-juniors-3d-la-pelicula"
+},
+{
+"t": "Ritual: A Psychomagic Story",
+"y": 2013,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/139123011/s166/ritual-a-psychomagic-story.jpg",
+"url": "https://www.justwatch.com/es/pelicula/ritual-a-psychomagic-story"
+},
+{
+"t": "High on Maine",
+"y": 1996,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/302580838/s166/high-on-maine.jpg",
+"url": "https://www.justwatch.com/es/pelicula/high-on-maine"
+},
+{
+"t": "Palabras No Dichas",
+"y": 2024,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/321229888/s166/palabras-no-dichas.jpg",
+"url": "https://www.justwatch.com/es/pelicula/palabras-no-dichas"
+},
+{
 "t": "Bronca Navidad",
 "y": 2026,
 "tipo": "Película",
 "f": "2026-11-23",
-"img": "https://images.justwatch.com/poster/356845971/s166/clashing-through-the-snow.jpg",
+"img": "https://images.justwatch.com/poster/357719888/s166/clashing-through-the-snow.jpg",
 "url": "https://www.justwatch.com/es/pelicula/clashing-through-the-snow"
 },
 {
-"t": "Aquellos maravillosos días",
-"y": 2024,
+"t": "Hechizados",
+"y": 1995,
 "tipo": "Película",
-"f": "2026-11-22",
-"img": "https://images.justwatch.com/poster/315620256/s166/au-fil-des-saisons.jpg",
-"url": "https://www.justwatch.com/es/pelicula/au-fil-des-saisons"
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/307487953/s166/hechizados-1995.jpg",
+"url": "https://www.justwatch.com/es/pelicula/hechizados-1995"
 },
 {
-"t": "La sobriedad",
+"t": "Huracán Categoría 6",
+"y": 2004,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/188189112/s166/huracan-categoria-6.jpg",
+"url": "https://www.justwatch.com/es/pelicula/huracan-categoria-6"
+},
+{
+"t": "Expediente Wanda: Conjuring the Beyond",
+"y": 2022,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/307044337/s166/conjuring-the-beyond.jpg",
+"url": "https://www.justwatch.com/es/pelicula/conjuring-the-beyond"
+},
+{
+"t": "Los primeros Coral Reefers",
 "y": 2026,
 "tipo": "Película",
-"f": "2026-11-22",
-"img": "https://images.justwatch.com/poster/346296684/s166/la-sobriedad.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-sobriedad"
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/355507699/s166/los-primeros-coral-reefers.jpg",
+"url": "https://www.justwatch.com/es/pelicula/los-primeros-coral-reefers"
+},
+{
+"t": "Barbie: La princesa y la cantante",
+"y": 2012,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/100970442/s166/barbie-la-princesa-y-la-estrella-de-pop.jpg",
+"url": "https://www.justwatch.com/es/pelicula/barbie-la-princesa-y-la-estrella-de-pop"
+},
+{
+"t": "China Strike Force",
+"y": 2000,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/11198135/s166/china-strike-force.jpg",
+"url": "https://www.justwatch.com/es/pelicula/china-strike-force"
+},
+{
+"t": "Greed",
+"y": 2022,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/268008612/s166/greed-2022.jpg",
+"url": "https://www.justwatch.com/es/pelicula/greed-2022"
+},
+{
+"t": "El azote",
+"y": 2017,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/320990175/s166/el-azote.jpg",
+"url": "https://www.justwatch.com/es/pelicula/el-azote"
+},
+{
+"t": "Hidden Truths",
+"y": 2024,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/322948587/s166/hidden-truths.jpg",
+"url": "https://www.justwatch.com/es/pelicula/hidden-truths"
+},
+{
+"t": "Norok (Hell)",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/346676437/s166/norok-hell.jpg",
+"url": "https://www.justwatch.com/es/pelicula/norok-hell"
+},
+{
+"t": "Sahan",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/357670716/s166/sahan.jpg",
+"url": "https://www.justwatch.com/es/pelicula/sahan"
+},
+{
+"t": "Mruthyudevate",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/348567127/s166/mruthyudevate.jpg",
+"url": "https://www.justwatch.com/es/pelicula/mruthyudevate"
+},
+{
+"t": "Designed by Preeti",
+"y": 2025,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/354666165/s166/designed-by-preeti.jpg",
+"url": "https://www.justwatch.com/es/pelicula/designed-by-preeti"
 },
 {
 "t": "1992 Noche Sin Ley",
@@ -373,6 +581,22 @@
 "url": "https://www.justwatch.com/es/pelicula/bridget-joness-baby"
 },
 {
+"t": "La sobriedad",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-22",
+"img": "https://images.justwatch.com/poster/346296684/s166/la-sobriedad.jpg",
+"url": "https://www.justwatch.com/es/pelicula/la-sobriedad"
+},
+{
+"t": "Aquellos maravillosos días",
+"y": 2024,
+"tipo": "Película",
+"f": "2026-11-22",
+"img": "https://images.justwatch.com/poster/315620256/s166/au-fil-des-saisons.jpg",
+"url": "https://www.justwatch.com/es/pelicula/au-fil-des-saisons"
+},
+{
 "t": "Cuando acecha la maldad",
 "y": 2023,
 "tipo": "Película",
@@ -389,28 +613,12 @@
 "url": "https://www.justwatch.com/es/pelicula/prospect"
 },
 {
-"t": "La venganza perfecta",
+"t": "Mi mejor verano",
 "y": 2018,
 "tipo": "Película",
 "f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/144031905/s166/terminal.jpg",
-"url": "https://www.justwatch.com/es/pelicula/terminal"
-},
-{
-"t": "Abducción",
-"y": 2020,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/312757254/s166/proximity-2020.jpg",
-"url": "https://www.justwatch.com/es/pelicula/proximity-2020"
-},
-{
-"t": "La invasión",
-"y": 2021,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/312985512/s166/risen-2021.jpg",
-"url": "https://www.justwatch.com/es/pelicula/risen-2021"
+"img": "https://images.justwatch.com/poster/250172928/s166/mi-mejor-verano.jpg",
+"url": "https://www.justwatch.com/es/pelicula/mi-mejor-verano"
 },
 {
 "t": "El último guerrero. Las raíces del mal",
@@ -421,20 +629,12 @@
 "url": "https://www.justwatch.com/es/pelicula/el-ultimo-guerrero-las-raices-del-mal"
 },
 {
-"t": "Mi mejor verano",
+"t": "La venganza perfecta",
 "y": 2018,
 "tipo": "Película",
 "f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/250172928/s166/mi-mejor-verano.jpg",
-"url": "https://www.justwatch.com/es/pelicula/mi-mejor-verano"
-},
-{
-"t": "Los Herejes",
-"y": 2022,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/320696578/s166/los-herejes.jpg",
-"url": "https://www.justwatch.com/es/pelicula/los-herejes"
+"img": "https://images.justwatch.com/poster/144031905/s166/terminal.jpg",
+"url": "https://www.justwatch.com/es/pelicula/terminal"
 },
 {
 "t": "Herencia Maldita",
@@ -445,212 +645,12 @@
 "url": "https://www.justwatch.com/es/pelicula/amelias-children"
 },
 {
-"t": "La Noche de los Skinwalkers",
-"y": 2024,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/330308949/s166/the-night-the-world-ends.jpg",
-"url": "https://www.justwatch.com/es/pelicula/the-night-the-world-ends"
-},
-{
-"t": "Kárate a muerte en Bangkok",
-"y": 1971,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/243520998/s166/karate-a-muerte-en-bangkok.jpg",
-"url": "https://www.justwatch.com/es/pelicula/karate-a-muerte-en-bangkok"
-},
-{
-"t": "Alex Rider: Operación Stormbreaker",
-"y": 2006,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/241016037/s166/alex-rider-operacion-stormbreaker.jpg",
-"url": "https://www.justwatch.com/es/pelicula/alex-rider-operacion-stormbreaker"
-},
-{
-"t": "A 47 metros",
-"y": 2017,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/127403555/s166/a-47-metros.jpg",
-"url": "https://www.justwatch.com/es/pelicula/a-47-metros"
-},
-{
-"t": "Se nos ha ido de las manos",
-"y": 2017,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/321043002/s166/se-nos-ha-ido-de-las-manos.jpg",
-"url": "https://www.justwatch.com/es/pelicula/se-nos-ha-ido-de-las-manos"
-},
-{
-"t": "Líneas enemigas",
-"y": 2020,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/175704053/s166/enemy-lines.jpg",
-"url": "https://www.justwatch.com/es/pelicula/enemy-lines"
-},
-{
-"t": "Ride",
-"y": 2018,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/240057823/s166/ride-2018.jpg",
-"url": "https://www.justwatch.com/es/pelicula/ride-2018"
-},
-{
-"t": "Operación rescate",
-"y": 2019,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/311800134/s166/operacion-rescate-2019.jpg",
-"url": "https://www.justwatch.com/es/pelicula/operacion-rescate-2019"
-},
-{
-"t": "Un sol interior",
-"y": 2017,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/113661536/s166/un-sol-interior.jpg",
-"url": "https://www.justwatch.com/es/pelicula/un-sol-interior"
-},
-{
-"t": "Suegra por sorpresa",
-"y": 2020,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/243043212/s166/suegra-por-sorpresa.jpg",
-"url": "https://www.justwatch.com/es/pelicula/suegra-por-sorpresa"
-},
-{
-"t": "Vacaciones sin mamá",
-"y": 2023,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/314647348/s166/10-jours-encore-sans-maman.jpg",
-"url": "https://www.justwatch.com/es/pelicula/10-jours-encore-sans-maman"
-},
-{
-"t": "Spermageddon",
-"y": 2025,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/335785258/s166/spermageddon.jpg",
-"url": "https://www.justwatch.com/es/pelicula/spermageddon"
-},
-{
-"t": "David: Nació un rey",
-"y": 2025,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/344443649/s166/david-2025.jpg",
-"url": "https://www.justwatch.com/es/pelicula/david-2025"
-},
-{
-"t": "Ella, él y Asta",
-"y": 1936,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/191620649/s166/ella-el-y-asta.jpg",
-"url": "https://www.justwatch.com/es/pelicula/ella-el-y-asta"
-},
-{
-"t": "Homofobia de estado",
-"y": 2023,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/306734908/s166/homofobia-de-estado.jpg",
-"url": "https://www.justwatch.com/es/pelicula/homofobia-de-estado"
-},
-{
-"t": "Perfectos mentirosos",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/357234541/s166/perfectos-mentirosos.jpg",
-"url": "https://www.justwatch.com/es/pelicula/perfectos-mentirosos"
-},
-{
-"t": "Odhikar - El Derecho",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/357231210/s166/odhikar-el-derecho.jpg",
-"url": "https://www.justwatch.com/es/pelicula/odhikar-el-derecho"
-},
-{
-"t": "Gladiator (El gladiador)",
-"y": 2000,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/257375550/s166/gladiator.jpg",
-"url": "https://www.justwatch.com/es/pelicula/gladiator"
-},
-{
-"t": "Viaje al final de la noche",
-"y": 2023,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/322755418/s166/journey-to-the-end-of-the-night.jpg",
-"url": "https://www.justwatch.com/es/pelicula/journey-to-the-end-of-the-night"
-},
-{
-"t": "Radhe Shyam (Telugu)",
-"y": 2022,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/255886899/s166/radhe-shyam.jpg",
-"url": "https://www.justwatch.com/es/pelicula/radhe-shyam"
-},
-{
-"t": "Jayalalithaa: La primera ministra",
+"t": "La invasión",
 "y": 2021,
 "tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/320919827/s166/thalaivi.jpg",
-"url": "https://www.justwatch.com/es/pelicula/thalaivi"
-},
-{
-"t": "Madden",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/347947101/s166/madden-2026.jpg",
-"url": "https://www.justwatch.com/es/pelicula/madden-2026"
-},
-{
-"t": "El jugador de ajedrez",
-"y": 2017,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/19299744/s166/el-jugador-de-ajedrez.jpg",
-"url": "https://www.justwatch.com/es/pelicula/el-jugador-de-ajedrez"
-},
-{
-"t": "La noche de los tres fuegos",
-"y": 2025,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/322435325/s166/la-noche-de-los-tres-fuegos.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-noche-de-los-tres-fuegos"
-},
-{
-"t": "Stellar Web",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/357064412/s166/stellar-web.jpg",
-"url": "https://www.justwatch.com/es/pelicula/stellar-web"
-},
-{
-"t": "La castración",
-"y": 2011,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/357238499/s166/la-castracion.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-castracion"
+"f": "2026-11-21",
+"img": "https://images.justwatch.com/poster/312985512/s166/risen-2021.jpg",
+"url": "https://www.justwatch.com/es/pelicula/risen-2021"
 }
 ]
 },
@@ -658,6 +658,22 @@
 "id": "dnp",
 "nombre": "Disney+",
 "titulos": [
+{
+"t": "The Symphony of Dance",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/357664442/s166/the-symphony-of-dance.jpg",
+"url": "https://www.justwatch.com/es/pelicula/the-symphony-of-dance"
+},
+{
+"t": "Biggest Sledding Adventure Ever!",
+"y": 2026,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/356722223/s166/biggest-sledding-adventure-ever.jpg",
+"url": "https://www.justwatch.com/es/pelicula/biggest-sledding-adventure-ever"
+},
 {
 "t": "Give Me the Ball!",
 "y": 2026,
@@ -859,20 +875,20 @@
 "url": "https://www.justwatch.com/es/pelicula/happier-than-ever-una-carta-de-amor-a-los-angeles"
 },
 {
-"t": "Una Navidad muy Jonas Brothers",
-"y": 2025,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/338500062/s166/a-very-jonas-christmas-movie.jpg",
-"url": "https://www.justwatch.com/es/pelicula/a-very-jonas-christmas-movie"
-},
-{
 "t": "Ritmo latino",
 "y": 2002,
 "tipo": "Película",
 "f": "2026-11-21",
 "img": "https://images.justwatch.com/poster/306837632/s166/gotta-kick-it-up.jpg",
 "url": "https://www.justwatch.com/es/pelicula/gotta-kick-it-up"
+},
+{
+"t": "Una Navidad muy Jonas Brothers",
+"y": 2025,
+"tipo": "Película",
+"f": "2026-11-21",
+"img": "https://images.justwatch.com/poster/338500062/s166/a-very-jonas-christmas-movie.jpg",
+"url": "https://www.justwatch.com/es/pelicula/a-very-jonas-christmas-movie"
 },
 {
 "t": "Calabaza asesina",
@@ -961,22 +977,6 @@
 "f": "2026-11-21",
 "img": "https://images.justwatch.com/poster/302132192/s166/queen-elizabeth-ii-a-royal-life-a-special-edition-of-20-20.jpg",
 "url": "https://www.justwatch.com/es/pelicula/queen-elizabeth-ii-a-royal-life-a-special-edition-of-20-20"
-},
-{
-"t": "Un día en Disney",
-"y": 2019,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/175958139/s166/one-day-at-disney.jpg",
-"url": "https://www.justwatch.com/es/pelicula/one-day-at-disney"
-},
-{
-"t": "La serie de mi vida",
-"y": 2002,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/306849119/s166/tru-confessions.jpg",
-"url": "https://www.justwatch.com/es/pelicula/tru-confessions"
 }
 ]
 },
@@ -985,12 +985,68 @@
 "nombre": "Filmin",
 "titulos": [
 {
-"t": "Sexo, maracas y chihuahuas",
-"y": 2016,
+"t": "Caníbal",
+"y": 2013,
 "tipo": "Película",
-"f": "2026-11-23",
-"img": "https://images.justwatch.com/poster/163134642/s166/sexo-maracas-y-chihuahuas.jpg",
-"url": "https://www.justwatch.com/es/pelicula/sexo-maracas-y-chihuahuas"
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/301587437/s166/canibal.jpg",
+"url": "https://www.justwatch.com/es/pelicula/canibal"
+},
+{
+"t": "Promoción fantasma",
+"y": 2012,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/175203469/s166/promocion-fantasma.jpg",
+"url": "https://www.justwatch.com/es/pelicula/promocion-fantasma"
+},
+{
+"t": "Las olas",
+"y": 2012,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/320289358/s166/las-olas.jpg",
+"url": "https://www.justwatch.com/es/pelicula/las-olas"
+},
+{
+"t": "Como nuestros padres",
+"y": 2017,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/76261712/s166/como-nuestros-padres.jpg",
+"url": "https://www.justwatch.com/es/pelicula/como-nuestros-padres"
+},
+{
+"t": "Papá, soy una zombi",
+"y": 2012,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/259292966/s166/papa-soy-una-zombi.jpg",
+"url": "https://www.justwatch.com/es/pelicula/papa-soy-una-zombi"
+},
+{
+"t": "La Modelo y el Fotógrafo",
+"y": 2020,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/307433290/s166/xie-zhen-nonu.jpg",
+"url": "https://www.justwatch.com/es/pelicula/xie-zhen-nonu"
+},
+{
+"t": "Chavela",
+"y": 2017,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/11377265/s166/chavela.jpg",
+"url": "https://www.justwatch.com/es/pelicula/chavela"
+},
+{
+"t": "Trío de ases: El secreto de la Atlántida",
+"y": 2008,
+"tipo": "Película",
+"f": "2026-11-24",
+"img": "https://images.justwatch.com/poster/320397343/s166/trio-de-ases-el-secreto-de-la-atlantida.jpg",
+"url": "https://www.justwatch.com/es/pelicula/trio-de-ases-el-secreto-de-la-atlantida"
 },
 {
 "t": "Animales",
@@ -999,6 +1055,14 @@
 "f": "2026-11-23",
 "img": "https://images.justwatch.com/poster/243440798/s166/animals.jpg",
 "url": "https://www.justwatch.com/es/pelicula/animals"
+},
+{
+"t": "Sexo, maracas y chihuahuas",
+"y": 2016,
+"tipo": "Película",
+"f": "2026-11-23",
+"img": "https://images.justwatch.com/poster/163134642/s166/sexo-maracas-y-chihuahuas.jpg",
+"url": "https://www.justwatch.com/es/pelicula/sexo-maracas-y-chihuahuas"
 },
 {
 "t": "Verano 2020",
@@ -1017,20 +1081,20 @@
 "url": "https://www.justwatch.com/es/pelicula/plan-75"
 },
 {
-"t": "Muerde la bala",
-"y": 1975,
-"tipo": "Película",
-"f": "2026-11-22",
-"img": "https://images.justwatch.com/poster/10046437/s166/bite-the-bullet.jpg",
-"url": "https://www.justwatch.com/es/pelicula/bite-the-bullet"
-},
-{
 "t": "El asesino de Rosemary",
 "y": 1981,
 "tipo": "Película",
 "f": "2026-11-22",
 "img": "https://images.justwatch.com/poster/241194324/s166/el-asesino-de-rosemary.jpg",
 "url": "https://www.justwatch.com/es/pelicula/el-asesino-de-rosemary"
+},
+{
+"t": "Muerde la bala",
+"y": 1975,
+"tipo": "Película",
+"f": "2026-11-22",
+"img": "https://images.justwatch.com/poster/10046437/s166/bite-the-bullet.jpg",
+"url": "https://www.justwatch.com/es/pelicula/bite-the-bullet"
 },
 {
 "t": "Un lío inesperado",
@@ -1137,20 +1201,20 @@
 "url": "https://www.justwatch.com/es/pelicula/2001-una-odisea-del-espacio"
 },
 {
-"t": "Push: Mucho más que gentrificación",
-"y": 2019,
-"tipo": "Película",
-"f": "2026-11-21",
-"img": "https://images.justwatch.com/poster/123442498/s166/push-2019.jpg",
-"url": "https://www.justwatch.com/es/pelicula/push-2019"
-},
-{
 "t": "Reencarnación",
 "y": 2004,
 "tipo": "Película",
 "f": "2026-11-21",
 "img": "https://images.justwatch.com/poster/327722588/s166/reencarnacion.jpg",
 "url": "https://www.justwatch.com/es/pelicula/reencarnacion"
+},
+{
+"t": "Push: Mucho más que gentrificación",
+"y": 2019,
+"tipo": "Película",
+"f": "2026-11-21",
+"img": "https://images.justwatch.com/poster/123442498/s166/push-2019.jpg",
+"url": "https://www.justwatch.com/es/pelicula/push-2019"
 },
 {
 "t": "Las 999 mujeres de Auschwitz",
@@ -1185,6 +1249,14 @@
 "url": "https://www.justwatch.com/es/pelicula/agrestes"
 },
 {
+"t": "Blade Runner",
+"y": 1982,
+"tipo": "Película",
+"f": "2026-11-20",
+"img": "https://images.justwatch.com/poster/125661949/s166/blade-runner.jpg",
+"url": "https://www.justwatch.com/es/pelicula/blade-runner"
+},
+{
 "t": "Barcelona",
 "y": 1994,
 "tipo": "Película",
@@ -1201,76 +1273,12 @@
 "url": "https://www.justwatch.com/es/pelicula/el-tesoro-de-sierra-madre"
 },
 {
-"t": "Blade Runner",
-"y": 1982,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/125661949/s166/blade-runner.jpg",
-"url": "https://www.justwatch.com/es/pelicula/blade-runner"
-},
-{
-"t": "V de Vendetta",
-"y": 2006,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/76752068/s166/v-de-vendetta.jpg",
-"url": "https://www.justwatch.com/es/pelicula/v-de-vendetta"
-},
-{
 "t": "Uno de los nuestros",
 "y": 1990,
 "tipo": "Película",
 "f": "2026-11-20",
 "img": "https://images.justwatch.com/poster/237940076/s166/uno-de-los-nuestros.jpg",
 "url": "https://www.justwatch.com/es/pelicula/uno-de-los-nuestros"
-},
-{
-"t": "Magnolia",
-"y": 1999,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/307077747/s166/magnolia.jpg",
-"url": "https://www.justwatch.com/es/pelicula/magnolia"
-},
-{
-"t": "Las amistades peligrosas",
-"y": 1988,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/151736946/s166/las-amistades-peligrosas.jpg",
-"url": "https://www.justwatch.com/es/pelicula/las-amistades-peligrosas"
-},
-{
-"t": "El resplandor",
-"y": 1980,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/129659342/s166/el-resplandor.jpg",
-"url": "https://www.justwatch.com/es/pelicula/el-resplandor"
-},
-{
-"t": "Solo las bestias",
-"y": 2019,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/200003608/s166/solo-las-bestias.jpg",
-"url": "https://www.justwatch.com/es/pelicula/solo-las-bestias"
-},
-{
-"t": "El sueño eterno",
-"y": 1946,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/330840999/s166/el-sueno-eterno.jpg",
-"url": "https://www.justwatch.com/es/pelicula/el-sueno-eterno"
-},
-{
-"t": "La celda",
-"y": 2000,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/191656881/s166/la-celda.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-celda"
 },
 {
 "t": "Eyes wide shut",
@@ -1281,100 +1289,27 @@
 "url": "https://www.justwatch.com/es/pelicula/eyes-wide-shut"
 },
 {
-"t": "La naranja mecánica",
-"y": 1971,
+"t": "Jóvenes ocultos",
+"y": 1987,
 "tipo": "Película",
 "f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/307021958/s166/la-naranja-mecanica.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-naranja-mecanica"
+"img": "https://images.justwatch.com/poster/300724385/s166/jovenes-ocultos.jpg",
+"url": "https://www.justwatch.com/es/pelicula/jovenes-ocultos"
 },
 {
-"t": "Tarde de perros",
-"y": 1975,
+"t": "Magnolia",
+"y": 1999,
 "tipo": "Película",
 "f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/309011844/s166/tarde-de-perros.jpg",
-"url": "https://www.justwatch.com/es/pelicula/tarde-de-perros"
-},
-{
-"t": "La fuga de Logan",
-"y": 1976,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/8736053/s166/la-fuga-de-logan.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-fuga-de-logan"
+"img": "https://images.justwatch.com/poster/307077747/s166/magnolia.jpg",
+"url": "https://www.justwatch.com/es/pelicula/magnolia"
 }
 ]
 },
 {
 "id": "mxx",
 "nombre": "HBO Max",
-"titulos": [
-{
-"t": "Tres de más",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-20",
-"img": "https://images.justwatch.com/poster/355587390/s166/tres-de-mas.jpg",
-"url": "https://www.justwatch.com/es/pelicula/tres-de-mas"
-},
-{
-"t": "Al Otro Lado de la Línea de Ayuda",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/357663181/s166/the-hotline.jpg",
-"url": "https://www.justwatch.com/es/pelicula/the-hotline"
-},
-{
-"t": "Zodiac",
-"y": 2007,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/136373507/s166/zodiac.jpg",
-"url": "https://www.justwatch.com/es/pelicula/zodiac"
-},
-{
-"t": "Todo a la vez en todas partes",
-"y": 2022,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/302323310/s166/everything-everywhere-all-at-once.jpg",
-"url": "https://www.justwatch.com/es/pelicula/everything-everywhere-all-at-once"
-},
-{
-"t": "Fahrenheit 451",
-"y": 2018,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/58458560/s166/fahrenheit-451-2018.jpg",
-"url": "https://www.justwatch.com/es/pelicula/fahrenheit-451-2018"
-},
-{
-"t": "Tres son multitud",
-"y": 2023,
-"tipo": "Película",
-"f": "2026-11-19",
-"img": "https://images.justwatch.com/poster/311264312/s166/la-benedizione.jpg",
-"url": "https://www.justwatch.com/es/pelicula/la-benedizione"
-},
-{
-"t": "Siempre Habrá Un Mañana",
-"y": 2023,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/319894448/s166/ce-ancora-domani.jpg",
-"url": "https://www.justwatch.com/es/pelicula/ce-ancora-domani"
-},
-{
-"t": "Un testigo retractado",
-"y": 2026,
-"tipo": "Película",
-"f": "2026-11-18",
-"img": "https://images.justwatch.com/poster/357356790/s166/cuando-un-testigo-se-retracta.jpg",
-"url": "https://www.justwatch.com/es/pelicula/cuando-un-testigo-se-retracta"
-}
-]
+"titulos": []
 },
 {
 "id": "atp",
